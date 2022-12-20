@@ -616,6 +616,8 @@ static void UmountDebugRamdisk() {
 }
 
 int SecondStageMain(int argc, char** argv) {
+
+
     if (REBOOT_BOOTLOADER_ON_PANIC) {
         InstallRebootSignalHandlers();
     }
